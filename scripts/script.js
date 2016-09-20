@@ -1,4 +1,3 @@
 // Jquery goes here
 $(function(){
-
 });
