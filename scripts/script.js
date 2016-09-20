@@ -4,21 +4,24 @@ alert('hello, world');
 $(function(){
   
   $('#s').click(function(){
-    $(this).text('SOCIAL TEXT');
+    $('#main-text').text('SOCIAL TEXT');
   });
   $('#p').click(function(){
-    $(this).text('POLITICAL TEXT');
+    $('#main-text').text('POLITICAL TEXT');
   });
   $('#r').click(function(){
-    $(this).text('RELIGOUS TEXT');
+    $('#main-text').text('RELIGOUS TEXT');
   });
   $('#i1').click(function(){
-    $(this).text('INTELLECTUAL TEXT');
+    $('#main-text').text('INTELLECTUAL TEXT');
   });
   $('#i2').click(function(){
-    $(this).text('INTERRELATIONAL TEXT');
+    $('#main-text').text('INTERRELATIONAL TEXT');
+  });
+  $('#t').click(function(){
+    $('#main-text').text('TECH TEXT');
   });
   $('#e').click(function(){
-    $(this).text('ECONOMIC TEXT');
+    $('#main-text').text('ECONOMIC TEXT');
   });
 });
