@@ -1,5 +1,3 @@
-alert('hello, world');
-
 // Jquery goes here
 $(function(){
   
