@@ -1,9 +1,52 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-
 @import "compass/reset"
+
+$backgroundColor: #e1e1e1
 
 body
   font-family: 'Open Sans', 'sans-serif'
+  margin: 0px
+  padding: 0px
+  background: $backgroundColor
+  color: #ee0000
+#title
+  text-align: center
+  font-size: 40px
+  padding: 30px
+#sidebar
+  list-style-type: none
+  position: relative
+  left: 20px
+  top: 92px
+  //bottom: 30px
+  width: 178px
+  font-size: 30px
+  border: solid black
+  border-radius: 0px 20px 0px 20px
+  color: #ee0000
+  > ul
+    > li
+      text-align: center
+      border-bottom: solid black
+      margin-top: 30px
+      margin-bottom: 30px
+      &:last-child
+        border-bottom: none
+#content
+  position: absolute
+  left: 178px
+  top: 92px
+  right: 0px
+  bottom: 0px
+  > #img
+    display: block
+    margin-left: auto
+    margin-right: auto
+    border: solid darken(lightgrey, 20%)
+    border-radius: 0px 30px 0px 30px
+  > #main-text
+    text-align: center
+    margin: 50px
+    font-size: 20px
+#copyright
+  position: absolute
+  bottom: -750px
