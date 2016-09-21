@@ -22,4 +22,7 @@ $(function(){
   $('#e').click(function(){
     $('#main-text').text('ECONOMIC TEXT');
   });
+  $('#home').click(function(){
+    $('#main-text').text('HOME TEXT')
+  });
 });
