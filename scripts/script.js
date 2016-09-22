@@ -2,7 +2,7 @@
 $(function(){
   
   $('#s').click(function(){
-    $('#main-text').text('SOCIAL TEXT');
+    $('#main-text').text('Maglths have no race or gender and because of this, magliths have never suffered discrimination in their kingdom. Magliths are content with drilling underground to find the two things they need/want, gold and coal. Magliths are fueled by coal, and their main currency is gold.');
   });
   $('#p').click(function(){
     $('#main-text').text('POLITICAL TEXT');
