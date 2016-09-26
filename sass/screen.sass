@@ -1,13 +1,17 @@
 @import "compass/reset"
 
-$backgroundColor: #ff5e21 
-$textColor: #eff600
+$backgroundColor: #ff8354 
+$textColor: #54d0ff
 
 body
   font-family: 'Open Sans', 'sans-serif'
   margin: 0px
   padding: 0px
-  background: $backgroundColor
+  background: 
+    color: $backgroundColor
+    image: url(../background.png) no-repeat
+      width: image-width(url(../background.png))
+      height: image-height(url(../background.png))
   color: $textColor 
 #title
   text-align: center
@@ -18,7 +22,6 @@ body
   position: relative
   left: 20px
   top: 92px
-  //bottom: 30px
   width: 178px
   font-size: 30px
   border: solid black
