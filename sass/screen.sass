@@ -1,22 +1,29 @@
 @import "compass/reset"
 
-$backgroundColor: #ff8354 
+$backgroundColor: #20001d
 $textColor: #54d0ff
 
 body
-  font-family: 'Open Sans', 'sans-serif'
+  font-family: 'Roboto', sans-serif
   margin: 0px
   padding: 0px
-  background: 
+  background:
     color: $backgroundColor
-    image: url(../background.png) no-repeat
-      width: image-width(url(../background.png))
-      height: image-height(url(../background.png))
-  color: $textColor 
+  color: $textColor
+  animation:
+    name: backcol
+    fill-mode: forwards
+    timing-function: cubic-bezier(.42, 0, .58, 1)
+    duration: 5s
 #title
   text-align: center
   font-size: 40px
   padding: 30px
+  animation:
+    name: textcol
+    fill-mode: forwards
+    timing-function: cubic-bezier(.42, 0, .58, 1)
+    duration: 5s
 #sidebar
   list-style-type: none
   position: relative
@@ -26,13 +33,25 @@ body
   font-size: 30px
   border: solid black
   border-radius: 0px 20px 0px 20px
+  border-color: $textColor
   color: $textColor
+  animation:
+    name: textcol
+    fill-mode: forwards
+    timing-function: cubic-bezier(.42, 0, .58, 1)
+    duration: 5s
   > ul
     > li
       text-align: center
       border-bottom: solid black
       margin-top: 30px
       margin-bottom: 30px
+      border-color: $textColor
+      animation:
+        name: textcol
+        fill-mode: forwards
+        timing-function: cubic-bezier(.42, 0, .58, 1)
+        duration: 5s
       &:last-child
         border-bottom: none
 #content
@@ -41,16 +60,46 @@ body
   top: 92px
   right: 0px
   bottom: 0px
+  animation:
+    name: textcol
+    fill-mode: forwards
+    timing-function: cubic-bezier(.42, 0, .58, 1)
+    duration: 5s
   > #img
     display: block
     margin-left: auto
     margin-right: auto
     border: solid darken(lightgrey, 20%)
     border-radius: 0px 30px 0px 30px
+    width: 504px
+    height: 672px
+
   > #main-text
     text-align: center
     margin: 50px
     font-size: 20px
+    animation:
+      name: textcol
+      fill-mode: forwards
+      timing-function: cubic-bezier(.42, 0, .58, 1)
+      duration: 5s
 #copyright
   position: absolute
   bottom: -750px
+  animation:
+    name: textcol
+    fill-mode: forwards
+    timing-function: cubic-bezier(.42, 0, .58, 1)
+    duration: 5s
+@keyframes backcol
+  0%
+    background: $backgroundColor
+  100%
+    background: #fd3f2d
+@keyframes textcol
+  0%
+    color: currentColor
+    border-color: currentColor
+  100%
+    color: #1a0300
+    border-color: #1a0300
