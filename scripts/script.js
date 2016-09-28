@@ -29,7 +29,7 @@ $(document).ready(function(){
 	$('#p').click(function(){
 		// TODO change political image name to politics.JPG
 		$('#parallax').css('background-image', 'url(imgs/social.JPG)');
-		$('#main-text').text('Magliths live in a monarchical society and their main leader is a king.The king doesn&#39;t try to control everything and the main leader of the civilization is the High Priest. The king&#39;s throne is made up of the dragon, Smaug&#39;s dead head as a mantlepiece.');
+		$('#main-text').text("Magliths live in a monarchical society and their main leader is a king.The king doesn't try to control everything and the main leader of the civilization is the High Priest. The king's throne is made up of the dragon, Smaug's dead head as a mantlepiece.");
 	});
 	$('#r').click(function(){
 		$('#main-text').text('The magliths worship the Sun god, Sol, as they believe that it was that celestial body that created their civilization. Every year on the Summer Solstice they hold a ritual where they sacrifice half of their gold to please the Sun God. Then all day long after the ritual they celebrate, eat and play music with their instruments.');
@@ -38,7 +38,7 @@ $(document).ready(function(){
 		$('#main-text').text('Magliths appreciate fine rock art (i.e. obsidian tablets, stalagmite formations, and stone carvings. They are relatively smart compared to other civilizations and they have modern ideas of equality and integrity.');
 	});
 	$('#i2').click(function(){
-		$('#main-text').text('Magliths are friendly with everything except for goblins, wargs and spiders. As magliths are not as accustomed to creating metal tools, they trade some gold with the dwarves in exchange for tools, weapons, and other metals to use as decor or building material. A special diamond which is embedded in the king&#34;s crown is a diamond which was mined by Thror himself. The first maglith king traded it for the first piece of gold found in their volcano home.');
+		$('#main-text').text("Magliths are friendly with everything except for goblins, wargs and spiders. As magliths are not as accustomed to creating metal tools, they trade some gold with the dwarves in exchange for tools, weapons, and other metals to use as decor or building material. A special diamond which is embedded in the king's crown is a diamond which was mined by Thror himself. The first maglith king traded it for the first piece of gold found in their volcano home.");
 	});
 	$('#t').click(function(){
 		$('#main-text').text('Magliths use their hands for everything. Their hands are normally shaped as drills, however, they can change at will. Other tools and weapons such as bows and swords are traded with elves and dwarves, but are rarely used.');
