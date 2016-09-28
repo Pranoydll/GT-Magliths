@@ -20,7 +20,7 @@ function closeNav() {
 $(document).ready(function(){
 
 	$('#s').click(function(){
-		$('#parallax').css('background-image', 'url(imgs/social.jpg)');
+		$('#parallax').css('background-image', 'url(imgs/social.JPG)');
 		$('#main-text').text('Maglithians (or Magliths for short) have no race or gender and because of this, magliths have never suffered discrimination in their kingdom. Magliths are content with drilling underground to find the two things they need/want most, gold and coal. Magliths are fueled by coal, and their main currency is gold. Magliths live in families. You might wonder how all these Magliths came to be.  Well, first when 2 Magliths have an affectionate bond with each other they can each give part of their lava to make a baby Maglith. When the lava combines from the 2 Magliths, it creates a Maglith baby. The hard outer shells forms in about 3-4 days. Their average lifespan is 50-60 year and then their lava starts to cool down.');
 	});
 	$('#p').click(function(){
@@ -42,7 +42,7 @@ $(document).ready(function(){
 		$('#main-text').text('Magliths have gold as their currency of choice. Gold is valuable to all, and the Magliths have an abundance of wealth. They keep it in a treasury buried deep within the volcano. Only 2 people in the entire civilization have the key to open the vault and to successfully open the vault you must have both of them in possession. The King and the High priest. They use this gold as their civilization&#34;s main bank and use it to make part of the Royal Palace.');
 	});
 	$('#home').click(function(){
-		$('#parallax').css('background-image', 'url(imgs/home.jpg)');
+		$('#parallax').css('background-image', 'url(imgs/home.JPG)');
 		$('#main-text').text('This is what a normal maglith home would look like.');
 	});
 
