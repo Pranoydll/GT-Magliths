@@ -1,41 +1,35 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>GT_MAGLITHS</title>
-    <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="scripts/script.js"></script>
-  </head>
-  <body>
-    <div id="title">
-      <h1>Magliths</h1>
-    </div>
-    <div id="sidebar">
-      <ul>
-        <li id="s"><p>S</p></li>
-        <li id="p"><p>P</p></li>
-        <li id="r"><p>R</p></li>
-        <li id="i1"><p>I</p></li>
-        <li id="i2"><p>I</p></li>
-        <li id="t"><p>T</p></li>
-        <li id="e"><p>E</p></li>
-        <li id="home"><p>Virtual Home</p></li>
-      </ul>
-    </div>
-    <div id="content">
-      <img alt="images go here" src="imgs/maglith.jpg" id="img"/>
-      <p id="main-text">
-        Magliths are lava creatures that use obsidian and rocks around them as a sort of exoskeleton or protective outer layering that holds them together.
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<script   src="https://code.jquery.com/jquery-3.1.0.slim.min.js"   integrity="sha256-cRpWjoSOw5KcyIOaZNo4i6fZ9tKPhYYb6i5T9RSVJG8="   crossorigin="anonymous"></script>
+		<script src="scripts/script.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	</head>
+	<body>
+		<div id="content-wrap">
+			<nav class="title item">
+				<h1 class="center-text">Magliths</h1>
+				<div id="mainSideNav" class="sidenav">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					<a href="#" id="s">Social</a>
+					<a href="#" id="p">Political</a>
+					<a href="#" id="r">Religous</a>
+					<a href="#" id="i">Intellectual</a>
+					<a href="#" id="i2">Interrelational</a>
+					<a href="#" id="t">Technology</a>
+					<a href="#" id="e">Economy</a>
+					<a href="#" id="home">Virtual Homes</a>
+				</div>
+				<span onclick="openNav()"><img src="imgs/hambtn.png"></span>
+			</nav>
+				<div id="parallax" class="item"></div>
+				<!-- Main body paragraph -->
+				<p class="center-text item" id="main-text">Main Lore:<br>A Istari named Solora had &quot;died&quot; in a volcano and Magliths formed from his remains. Magliths were made completely because of Solora (the wizard of the sun). Magliths&#39; religion was majorly influenced because of their origins as the Istari whose death (accidentally) created them, was the Istari of the sun. Some other Istaris include Gandalf,  and Saruman. This 1st generation of Magliths created the civilization and inhabited the volcano. The first Maglithian king traded the first piece of silver infused gold with a diamond mined by Thror himself. This diamond till today still is embedded in the crown of the king. Forwarding a couple hundred years, the Battle of the 5 armies took place in which many people and things were killed. One of these beings was a dragon. You might have heard of him or you might have not; his name was Smaug. The Magliths went and recovered the head of the beast and used it as the crest on the king's throne. This throne is still the seat of all power in this grand civilization.
+</p>
 
-        These being look like they are made up of rock, however, they are only the lava that holds them together.
-
-
-      </p>
-    </div>
-    <div id="copyright">
-      <p>&copy; Pranoy Dutta Inc. 2016</p>
-    </div>
-  </body>
+			<p id="copyright" class="center-text item"><br>&copy;2016 Made By Pranoy Dutta</p>
+		</div> <!-- end content-wrap -->
+	</body>
 </html>
