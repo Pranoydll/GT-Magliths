@@ -24,10 +24,11 @@ function closeNav() {
 $(document).ready(function(){
 
 	$('#s').click(function(){
-		$('#parallax').css('background-image', 'url(imgs/social.JPG)');
 		$('#main-text').text('Maglithians (or Magliths for short) have no race or gender and because of this, magliths have never suffered discrimination in their kingdom. Magliths are content with drilling underground to find the two things they need/want most, gold and coal. Magliths are fueled by coal, and their main currency is gold. Magliths live in families. You might wonder how all these Magliths came to be.  Well, first when 2 Magliths have an affectionate bond with each other they can each give part of their lava to make a baby Maglith. When the lava combines from the 2 Magliths, it creates a Maglith baby. The hard outer shells forms in about 3-4 days. Their average lifespan is 50-60 year and then their lava starts to cool down.');
 	});
 	$('#p').click(function(){
+		// TODO change political image name to politics.JPG
+		$('#parallax').css('background-image', 'url(imgs/social.JPG)');
 		$('#main-text').text('Magliths live in a monarchical society and their main leader is a king.The king doesn&#39;t try to control everything and the main leader of the civilization is the High Priest. The king&#39;s throne is made up of the dragon, Smaug&#39;s dead head as a mantlepiece.');
 	});
 	$('#r').click(function(){
