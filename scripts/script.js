@@ -1,3 +1,7 @@
+//
+//	MADE BY PRANOY DUTTA
+//
+
 var bodyHeight = 0;
 
 $(function(){
