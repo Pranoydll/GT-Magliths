@@ -36,9 +36,11 @@ $(document).ready(function(){
 		$('#main-text').text('The magliths worship the Sun god, Sol, as they believe that it was that celestial body that created their civilization. Every year on the Summer Solstice they hold a ritual where they sacrifice half of their gold to please the Sun God. Then all day long after the ritual they celebrate, eat and play music with their instruments.');
 	});
 	$('#i').click(function(){
+		$('#parallax').css('background-image', 'url(imgs/art.JPG)');
 		$('#main-text').text('Magliths appreciate fine rock art (i.e. obsidian tablets, stalagmite formations, and stone carvings. They are relatively smart compared to other civilizations and they have modern ideas of equality and integrity.');
 	});
 	$('#i2').click(function(){
+		$('#parallax').css('background-image', 'url(imgs/eco.JPG)');
 		$('#main-text').text("Magliths are friendly with everything except for goblins, wargs and spiders. As magliths are not as accustomed to creating metal tools, they trade some gold with the dwarves in exchange for tools, weapons, and other metals to use as decor or building material. A special diamond which is embedded in the king's crown is a diamond which was mined by Thror himself. The first maglith king traded it for the first piece of gold found in their volcano home.");
 	});
 	$('#t').click(function(){
