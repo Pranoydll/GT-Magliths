@@ -42,9 +42,11 @@ $(document).ready(function(){
 		$('#main-text').text("Magliths are friendly with everything except for goblins, wargs and spiders. As magliths are not as accustomed to creating metal tools, they trade some gold with the dwarves in exchange for tools, weapons, and other metals to use as decor or building material. A special diamond which is embedded in the king's crown is a diamond which was mined by Thror himself. The first maglith king traded it for the first piece of gold found in their volcano home.");
 	});
 	$('#t').click(function(){
+		$('#parallax').css('background-image', 'url(imgs/tech.JPG)');
 		$('#main-text').text('Magliths use their hands for everything. Their hands are normally shaped as drills, however, they can change at will. Other tools and weapons such as bows and swords are traded with elves and dwarves, but are rarely used.');
 	});
 	$('#e').click(function(){
+		$('#parallax').css('background-image', 'url(imgs/eco.JPG)');
 		$('#main-text').text("Magliths have gold as their currency of choice. Gold is valuable to all, and the Magliths have an abundance of wealth. They keep it in a treasury buried deep within the volcano. Only 2 people in the entire civilization have the key to open the vault and to successfully open the vault you must have both of them in possession. The King and the High priest. They use this gold as their civilization's main bank and use it to make part of the Royal Palace.");
 	});
 	$('#home').click(function(){
